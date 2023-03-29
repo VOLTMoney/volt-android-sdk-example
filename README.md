@@ -32,9 +32,9 @@ implementation 'com.github.VOLTMoney:volt-android-sdk:1.0.1'
 
 The first and mandatory step to integrate volt sdk is to create an instance of VoltSDKContainer class. The constructor to the class takes in configuration parameters which would be used while rendering content, these are: 
 
-1. **app_key (mandatory)**: Application's private key provided by the Volt Money team. If you don't have the key please contact the team at support@voltmoney.in. 
-2. **app_secret (mandatory)**: Application's private hash key provided by the Volt Money team. If you don't have the key please contact the team at support@voltmoney.in. 
-3. **partner_platform (mandatory)**: partner_platform, partner platform is the name/id provided to you by the Volt Money team to identify the SDK user. This is a mandatory field and will be passed as header in all API calls. If you don't have this 'id' please reach out to volt team @ support@voltmoney.in
+1. **app_key (mandatory)**: Application's private key provided by the Volt Money team. If you don't have the key please contact the team at integration-support@voltmoney.in. 
+2. **app_secret (mandatory)**: Application's private hash key provided by the Volt Money team. If you don't have the key please contact the team at integration-support@voltmoney.in. 
+3. **partner_platform (mandatory)**: partner_platform, partner platform is the name/id provided to you by the Volt Money team to identify the SDK user. This is a mandatory field and will be passed as header in all API calls. If you don't have this 'id' please reach out to volt team @ integration-support@voltmoney.in
 4. **primary_color(optional)** : Primary color, hex code of the color to be used as primary color for Volt Money sdk. The UI will get automatically customized to use this color as primary color (ex. all CTA, Icons etc.) 
 5. **secondary_color(optional)** : Secondary color, hex code of the color to be used as secondary color for Volt Money sdk. The UI will get automatically customized to use this color. ex. all svgs, progress bar etc.)
 6. **ref (optional)**: Ref, is short for referral code, referral code can be specific to partner/platform based on the use-case. If provided the user signing up would be associated with the partner/platform. 
